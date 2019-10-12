@@ -1,0 +1,58 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is Rehan", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me My-Touri.", "I'm My-Touri!", "I'm My-Touri for help you."],
+         "context_set": ""
+        },
+        {"tag": "opinion",
+         "patterns": ["Id like to go somewhere", "which is in top list of tamilnadu", "could i get something to trip"],
+         "responses": ["We can give the opinion?", "Ooty,Chennai,Kanyakumari,etc","kerala is better."],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+         {"tag": "Contact",
+         "patterns": ["what is the local Police station number", "what is the ambulance number", "can you help me"],
+         "responses": ["The police station number is 100","The Ambulance number is 108","I am glad to wait for it"],
+         "context_set": ""
+        },
+         {"tag": "Hotel",
+         "patterns": ["Book for hotel"],
+         "responses": ["Here is some option trivago,make my trip","get the look in Redbus","I am glad to wait for it"],
+         "context_set": ""
+        },
+         {"tag": "weather",
+         "patterns": ["what is the weather there", "what is the climate there", "If it is rain"],
+         "responses": ["There was rainy","There was sunny","Nope","smooth"],
+         "context_set": ""
+        },
+         {"tag": "confussion",
+         "patterns": ["If mysuru is better than Bangaluru", "which is have huge traffic", "which place you can suggest me"],
+         "responses": ["Depends upon your mindset","Bangaluru have a high traffic","i am suggest you for mysuru","Doesn't matter where you are go if you enjoy or not is matter"],
+         "context_set": ""
+        },
+          {"tag": "budget",
+         "patterns": ["what is the budget for that", "Amount", "What is the fair"],
+         "responses": ["almost 5000 per head!","less than 10000"],
+         "context_s     et": ""
+        }
+   ]
+}
